@@ -32,9 +32,9 @@ async def init():
 
 
 app = FastAPI(
-    title="testAPI",
-    description="test API",
-    version="0.1.0"
+    title="User CRUD API",
+    description="Base user CRUD API",
+    version="1.0"
 )
 
 register_tortoise(app, config=TORTOISE_ORM)
