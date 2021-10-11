@@ -32,7 +32,7 @@ async def init():
 
 
 app = FastAPI(
-    title="User CRUD API",
+    title="User's CRUD API",
     description="Base user CRUD API",
     version="1.0"
 )
